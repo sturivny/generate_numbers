@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Install pylint
-      run: apt-get install pylint 
+      run: sudo apt-get install pylint 
       
     - name: GitHub Action for pylint
       run: pylint main.py 
